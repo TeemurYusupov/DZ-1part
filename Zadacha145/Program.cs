@@ -15,7 +15,7 @@ array[i] = Console.ReadLine();
 Console.WriteLine();
 Console.WriteLine("[" + string.Join("," , array) + "] ->");
 
-
+// поиск нужных элементов массива
 for(int j = 0; j < n; j++)
 {
   if (array[j].Length < 4)
